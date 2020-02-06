@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Designing Classes with a Single Responsibility"
+title: "Designing Durable Code: Part 2"
 date: 2020-02-06
 ---
 
