@@ -29,7 +29,7 @@ date: 2020-02-06
 <p>"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>."</p>
 <p>As you can see, I have created classes to represent each of the nouns in the description, except for <b>mines</b>.</p>
 <p>This is due to Metz's second rule: a noun that has both <em>data</em> and <em>behavior</em> associated with it deserves to be a class.</p>
-<p>Whereas each of the other nouns adhere to this rule, a mine falls short. It's true that a tile may contain a mine, and, if selected, reveal that mine to the player. However, the mine itself lacks both the necessary data and behavior which would make it eligible for its own class.</p>
+<p>Whereas each of the other nouns adhere to this rule, a mine falls short. It's true that a tile may contain a mine, and, if selected, will reveal that mine to the player. Yet the mine itself lacks both the necessary data and behavior which would make it eligible for its own class.</p>
 
 
  
