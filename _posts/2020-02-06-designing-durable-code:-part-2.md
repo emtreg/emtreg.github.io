@@ -17,13 +17,13 @@ date: 2020-02-06
 <img class="center" height="400" width="400" src="https://user-images.githubusercontent.com/34899774/74046053-d1fd0500-499b-11ea-862e-1ec53968fdf6.png" alt="Minesweeper Program">
 <p>As the user reveals each tile on the board, it may contain a number indicating how many mines immediately surround it. If a tile has no neighboring mines, its surrounding tiles will be revealed recursively using a flood fill algorithm.</p>
 <p>The program contains five classes:
-<ul>
+<ol>
  <li>Minesweeper (driver)</li>
  <li>Game</li>
  <li>Tile</li>
  <li>Board</li>
  <li>Player</li>
-</ul>
+</ol>
 
 
  
