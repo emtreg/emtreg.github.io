@@ -12,7 +12,7 @@ date: 2020-02-06
 <br>
 <br>
 <img class="center" height="400" width="400" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
-<p class="center">Screenshot of program running in console<p>
+&emsp;&emsp;&emsp;&emsp;&emsp;Screenshot of program running in console
 
 
 
