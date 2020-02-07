@@ -4,7 +4,7 @@ title: "Designing Durable Code: Part 2"
 date: 2020-02-06
 ---
 
-<p><b>Designing Classes with a Single Responsibility</b></p>
+<p><b>What Should Be a Class?</b></p>
 &emsp; In my last post, I stated that as I make my way through POODR, I will be revisiting a command line Minesweeper game I've recently completed in order to make the existing code more durable.
 <br>
 <br>
@@ -24,10 +24,12 @@ date: 2020-02-06
  <li>Board</li>
  <li>Player</li>
 </ol>
-
-<p>According to Sandi Metz, when deciding what should be a class, you should look at the nouns in the description of your application.</p>
-<p>Let's revisit the description of my Minesweeper application from above:<p>
-<p>"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>"</p>
+<p>According to Sandi Metz, you should look at the nouns in the description of your application when deciding what should and shouldn't be a class.</p>
+<p>Let's revisit my program's description from above:<p>
+<p>"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>."</p>
+<p>As you can see, I have created classes to represent each of the nouns in the description, except for "mines"</p>
+<p>This is due to Metz's second rule: a noun that has both <em>data</em> and <em>behavior</em> deserves to be a class.</p>
+<p>Whereas each of the other nouns adhere to this rule, a "mine" does not. A tile may contain a mine, and, if selected, it may also reveal that mine to the player. However, for now a mine does not have either data or behavior associated with it that would make it eligible for its own class.</p>
 
 
  
