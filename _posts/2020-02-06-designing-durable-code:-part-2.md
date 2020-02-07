@@ -24,12 +24,12 @@ date: 2020-02-06
  <li>Board</li>
  <li>Player</li>
 </ol>
-<p>According to Sandi Metz, you should look at the nouns in the description of your application when deciding what should and shouldn't be a class.</p>
-<p>Let's revisit my program's description from above:<p>
+<p>Metz's first rule is to look at the nouns in the description of your application when deciding what should and shouldn't be a class.</p>
+<p>Therefore, let's revisit my program's description from above:<p>
 <p>"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>."</p>
-<p>As you can see, I have created classes to represent each of the nouns in the description, except for "mines"</p>
+<p>As you can see, I have created classes to represent each of the nouns in the description, except for <b>mines</b></p>
 <p>This is due to Metz's second rule: a noun that has both <em>data</em> and <em>behavior</em> deserves to be a class.</p>
-<p>Whereas each of the other nouns adhere to this rule, a "mine" does not. A tile may contain a mine, and, if selected, it may also reveal that mine to the player. However, for now a mine does not have either data or behavior associated with it that would make it eligible for its own class.</p>
+<p>Whereas each of the other nouns adhere to this rule, a "mine" falls short. It's true that a tile may contain a mine, and, if selected, will reveal that mine to the player. However, the mine itself lacks both the necessary data and behavior which would make it eligible for its own class.</p>
 
 
  
