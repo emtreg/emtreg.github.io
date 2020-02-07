@@ -27,7 +27,7 @@ date: 2020-02-06
 
 <p>According to Sandi Metz, when deciding what should be a class, you should look at the nouns in the description of your application.</p>
 <p>Let's revisit the description of my Minesweeper application from above:<p>
-<p>"In this <em>Minesweeper program</em>, there are ten <em>mines</em> hidden within the <em>tiles</em> of a <em>board</em>, and a <em>player</em> must successfully flag all of these <em>tiles</em> in order to win the <em>game</em>"</p>
+<p>"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>"</p>
 
 
  
