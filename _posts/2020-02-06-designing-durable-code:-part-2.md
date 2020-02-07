@@ -13,6 +13,8 @@ date: 2020-02-06
 <br>
 <img class="center" height="400" width="400" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
 &emsp;<p class="center">Screenshot of program running in console</p>
+<br>
+<p>The program has all of the functionality of a classic Minesweeper game. That is, there are 10 mines hidden within the tiles of a board, and a user must successfully flag all of these tiles in order to win the game.</p>
 
 
 
