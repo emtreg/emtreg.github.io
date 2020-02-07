@@ -13,7 +13,7 @@ date: 2020-02-06
 <br>
 <img class="center" height="400" width="400" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
 <p class="center">Screenshot of program running in console</p>
-<p>The program has all of the functionality of a classic Minesweeper game. That is, there are ten mines hidden within the tiles of a board, and a user must successfully flag all of these tiles in order to win the game.</p>
+<p>In this Minesweeper program, there are ten mines hidden within the tiles of a board, and a player must successfully flag all of these tiles in order to win the game</p>
 <img class="center" height="400" width="400" src="https://user-images.githubusercontent.com/34899774/74046053-d1fd0500-499b-11ea-862e-1ec53968fdf6.png" alt="Minesweeper Program">
 <p>As the user reveals each tile on the board, it may contain a number indicating how many mines immediately surround it. If a tile has no neighboring mines, its surrounding tiles will be revealed recursively using a flood fill algorithm.</p>
 <p>The program contains five classes:
@@ -24,6 +24,10 @@ date: 2020-02-06
  <li>Board</li>
  <li>Player</li>
 </ol>
+
+<p>According to Sandi Metz, when deciding what should be a class, you should look at the nouns in the description of your application.</p>
+<p>Let's revisit the description of my Minesweeper application from above:<p>
+<p>"In this <em>Minesweeper program</em>, there are ten <em>mines</em> hidden within the <em>tiles</em> of a <em>board</em>, and a <em>player</em> must successfully flag all of these <em>tiles</em> in order to win the <em>game</em>"</p>
 
 
  
