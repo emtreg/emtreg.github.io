@@ -4,7 +4,6 @@ title: "Designing Durable Code: What Should Be a Class?"
 date: 2020-02-06
 ---
 
-<p><b>What Should Be a Class?</b></p>
 &emsp; In my last post, I stated that as I make my way through POODR, I will be revisiting a command line Minesweeper game I've recently completed in order to make the existing code more durable.
 <br>
 <br>
