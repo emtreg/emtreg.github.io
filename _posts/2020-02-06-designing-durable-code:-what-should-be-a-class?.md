@@ -29,7 +29,7 @@ date: 2020-02-06
 <p>As you can see, I have created classes to represent each of the nouns in the description, except for <b>mines</b>.</p>
 <p>This is due to Metz's second rule: a noun that has both <em>data</em> and <em>behavior</em> associated with it deserves to be a class.</p>
 <p>Whereas each of the other nouns adhere to this rule, a mine falls short. It's true that a tile may contain a mine, and, if selected, will reveal that mine to the player. Yet the mine itself lacks both the necessary data and behavior which would make it eligible for its own class.</p>
-<p>So far, so good! I'm happy with the classes I created for my Minesweeper application. But now comes the hard stuff: determining if each class has a single responsibility.</p>
+<p>So far, so good! I'm happy with the classes I created for my Minesweeper application. But now comes the hard part: determining if each class has a single responsibility.</p>
 
 
  
