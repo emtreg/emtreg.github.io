@@ -11,5 +11,6 @@ date: 2020-02-06
 &emsp; First, let me give a brief overview of the program in its current form:
 <br>
 <br>
-<img class="center" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
+<img class="center" height="200" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
 
+ 
