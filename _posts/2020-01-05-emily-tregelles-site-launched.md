@@ -6,12 +6,8 @@ date: 2020-01-05
 
 I'm excited to begin blogging!
 
-```javascript
-function sayHello(name) {
-  if (!name) {
-    console.log('Hello World');
-  } else {
-    console.log(`Hello ${name}`);
-  }
-}
-```
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
