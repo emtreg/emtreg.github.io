@@ -14,10 +14,10 @@ date: 2020-02-07
 <p>2. Attempt to describe the class in one sentence</p>
 <p>&emsp; If the sentence contains the words 'and' or 'or', the class has more than one responsibility.</p>
 
-<p>I am now going to apply the second method to each class in my Minesweeper program by attempting to summarize it in a sentence:</p>
+<p>I am now going to apply the second method to each class in my Minesweeper program:</p>
 
-Tile class:
-Board class: 
-Player class:
-Game class:
-Minesweeper class:
+<p>Tile class:</p>
+<p>Board class:</p>
+<p>Player class:</p>
+<p>Game class:</p>
+<p>Minesweeper class:</p>
