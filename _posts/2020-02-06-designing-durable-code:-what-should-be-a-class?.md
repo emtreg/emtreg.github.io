@@ -13,7 +13,7 @@ date: 2020-02-06
 <img class="center" src="https://user-images.githubusercontent.com/34899774/74170631-38339300-4bfb-11ea-9c76-4bffc12f9511.png" alt="Minesweeper Program">
 <p>&emsp;In this Minesweeper program, there are ten mines hidden within the tiles of a 10 by 10 board, and a player must successfully flag all of these tiles in order to win the game.</p>
 <img class="center" src="https://user-images.githubusercontent.com/34899774/74046053-d1fd0500-499b-11ea-862e-1ec53968fdf6.png" alt="Minesweeper Program">
-<p>&emsp;As the user reveals each tile on the board, they may contain numbers indicating how many mines immediately surround it. If a tile has no neighboring mines, its surrounding tiles will be revealed recursively.</p>
+<p>&emsp;As the player reveals each tile on the board, a tile may contain a number indicating how many mines immediately surround it. If a tile has no neighboring mines, its surrounding tiles will be revealed recursively.</p>
 <p>The program contains five classes:
 <ol>
  <li>Minesweeper (driver class)</li>
@@ -24,7 +24,7 @@ date: 2020-02-06
 </ol>
 <p>&emsp;Metz's first rule is to look at the nouns in the description of your application when deciding what should and shouldn't be a class.</p>
 <p>&emsp;Therefore, let's revisit my program's description from above:<p>
-<p>&emsp;"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>. As the <b>player</b> reveals each <b>tile</b> on the <b>board</b>, they may contain <b>numbers</b> indicating how many <b>mines</b> immediately surround it. If a <b>tile</b> has no neighboring <b>mines</b>, its surrounding <b>tiles</b> will be revealed recursively"</p>
+<p>&emsp;"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>. As the <b>player</b> reveals each <b>tile</b> on the <b>board</b>, a tile may contain a <b>number</b> indicating how many <b>mines</b> immediately surround it. If a <b>tile</b> has no neighboring <b>mines</b>, its surrounding <b>tiles</b> will be revealed recursively"</p>
 <p>&emsp;As you can see, I have created classes to represent each of the nouns in the description, except for <b>mines</b> and <b>numbers</b>. This is due to Metz's second rule: a noun that has both <em>data</em> and <em>behavior</em> associated with it deserves to be a class.</p>
 <p>&emsp;Whereas each of the other nouns adhere to this rule, mines and numbers fall short. It's true that a tile may contain a mine or a number, and, if selected, will reveal this symbol to the player. Yet both lack the necessary data and behavior which would make them eligible for their own classes.</p>
 <p>&emsp;So far, so good! I'm happy with the classes I created for my Minesweeper application. But now comes the hard part: determining if each class has a single responsibility.</p>
