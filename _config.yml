@@ -1,5 +1,6 @@
 name: Emily Tregelles
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: minima
 
 
