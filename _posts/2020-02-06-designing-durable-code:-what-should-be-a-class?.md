@@ -19,7 +19,7 @@ date: 2020-02-06
 <p>&emsp;As the user reveals each tile on the board, they may contain numbers indicating how many mines immediately surround it. If a tile has no neighboring mines, its surrounding tiles will be revealed recursively.</p>
 <p>The program contains five classes:
 <ol>
- <li>Minesweeper (driver)</li>
+ <li>Minesweeper (driver class)</li>
  <li>Game</li>
  <li>Tile</li>
  <li>Board</li>
