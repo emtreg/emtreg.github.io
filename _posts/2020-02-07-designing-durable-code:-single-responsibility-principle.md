@@ -12,4 +12,4 @@ date: 2020-02-07
 <p>&emsp;Simply put, ask each class, <em>"What is your function?"</em></p>
 <p>&emsp;If the answer to this question is neither straightforward nor concise, it does not follow the SRP.</p>
 <p>2. Attempt to describe the class in one sentence</p>
-<p>&emsp; If this sentence contains the words 'and' or 'or', the class has more than one responsibility.</p>
+<p>&emsp; If the sentence contains the words 'and' or 'or', the class has more than one responsibility.</p>
