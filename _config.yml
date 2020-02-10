@@ -1,7 +1,5 @@
 name: Emily Tregelles
 markdown: kramdown
-highlighter: rouge
-    input: GFM
 permalink: /blog/:year/:month/:day/:title
 
 
