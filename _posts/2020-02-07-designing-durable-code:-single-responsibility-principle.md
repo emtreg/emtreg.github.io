@@ -10,6 +10,6 @@ date: 2020-02-07
 <p>&emsp;Metz recommends two strategies for determining if a class has a single responsibility:</p>
 <p>1. "Interrogate" the class</p>
 <p>&emsp;Simply put, ask each class, <em>"What is your function?"</em></p>
-<p>If the answer to this question is neither straightforward nor concise, it does not follow the SRP.</p>
+<p>&emsp;If the answer to this question is neither straightforward nor concise, it does not follow the SRP.</p>
 <p>2. Attempt to describe the class in one sentence</p>
 <p>&emsp; If this sentence contains the words 'and' or 'or', the class has more than one responsibility.</p>
