@@ -11,11 +11,11 @@ date: 2020-02-06
 <br>
 <br>
 <figure>
-<img class="center" height="500" width="500" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
+<img class="center" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
 &emsp;<figcaption class="center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Screenshot of program running in console</figcaption>
  </figure>
 <p>&emsp;In this Minesweeper program, there are ten mines hidden within the tiles of a 10 by 10 board, and a player must successfully flag all of these tiles in order to win the game.</p>
-<img class="center" height="400" width="400" src="https://user-images.githubusercontent.com/34899774/74046053-d1fd0500-499b-11ea-862e-1ec53968fdf6.png" alt="Minesweeper Program">
+<img class="center" src="https://user-images.githubusercontent.com/34899774/74046053-d1fd0500-499b-11ea-862e-1ec53968fdf6.png" alt="Minesweeper Program">
 <p>&emsp;As the user reveals each tile on the board, they may contain numbers indicating how many mines immediately surround it. If a tile has no neighboring mines, its surrounding tiles will be revealed recursively.</p>
 <p>The program contains five classes:
 <ol>
