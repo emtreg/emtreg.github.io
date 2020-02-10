@@ -11,7 +11,7 @@ date: 2020-02-06
 <br>
 <br>
 <figure>
-<img class="center" height="500" width="500" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
+<img class="center" height="600" width="600" src="https://user-images.githubusercontent.com/34899774/73974146-d836a700-48f1-11ea-8d36-10defb2f9791.png" alt="Minesweeper Program">
 &emsp;<figcaption class="center">Screenshot of program running in console</figcaption>
  </figure>
 <p>In this Minesweeper program, there are ten mines hidden within the tiles of a 10 by 10 board, and a player must successfully flag all of these tiles in order to win the game.</p>
