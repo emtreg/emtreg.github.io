@@ -78,7 +78,7 @@ date: 2020-02-07
   <tr>
     <td>flood_fill / flood_fill_util</td>
     <td>"Mr. Board, are you flood filled?"</td>
-    <td align="center">?</td>
+    <td align="center">❓</td>
   </tr>
 </table>
 <p>Player class:</p>
