@@ -57,3 +57,7 @@ ol li {
   margin-right: auto;
   width: 50%;
 }
+
+.nowrap {
+  white-space: nowrap ;
+}
