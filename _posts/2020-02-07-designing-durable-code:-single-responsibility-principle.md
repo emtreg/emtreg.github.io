@@ -44,6 +44,43 @@ date: 2020-02-07
   </tr>
 </table>
 <p>Board class:</p>
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Question</th>
+    <th>Makes Sense?</th>
+  </tr>
+  <tr>
+    <td>populate</td>
+    <td>"Mr. Board, are you populated?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>put_mines</td>
+    <td>"Mr. Board, have mines been placed on you?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>put_numbers</td>
+    <td>"Mr. Board, have numbers been placed on you?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>display</td>
+    <td>"Mr. Board, are you displayed?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>reveal_all_mines</td>
+    <td>"Mr. Board, are all of your mines revealed?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>flood_fill / flood_fill_util</td>
+    <td>"Mr. Board, are you flood filled?"</td>
+    <td align="center">?</td>
+  </tr>
+</table>
 <p>Player class:</p>
 <p>Game class:</p>
 <p>Minesweeper class:</p>
