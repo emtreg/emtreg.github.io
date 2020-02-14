@@ -105,5 +105,17 @@ date: 2020-02-07
   </tr>
 </table>
 <p>Player class:</p>
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Question</th>
+    <th>Makes Sense?</th>
+  </tr>
+  <tr>
+    <td>make_move</td>
+    <td>"Mr. Player, have you made a move?"</td>
+    <td align="center">✅</td>
+  </tr>  
+</table>
 <p>Game class:</p>
 <p>Minesweeper class:</p>
