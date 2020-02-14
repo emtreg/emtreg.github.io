@@ -16,7 +16,7 @@ date: 2020-02-07
 <p>Now, let's apply the second method to each of the classes in my Minesweeper program:</p>
 
 <p><b>Tile Class:</b></p>
-<p>&emsp;The Tile class <b>updates a tile's hidden and visible symbols in response to an action being performed on it</b> (i.e. the tile is selected/flagged/unflagged).</p>
+<p>&emsp;The Tile class <b>updates a tile's symbols in response to an action being performed on it</b> (i.e. the tile is selected/flagged/unflagged).</p>
 
 <p><b>Board Class:</b></p>
 <p>&emsp;The Board class <b>populates the gameboard</b>, <b>performs flood-filling</b> and <b>displays the board</b>.</p>
