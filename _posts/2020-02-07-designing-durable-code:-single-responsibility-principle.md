@@ -33,12 +33,12 @@ date: 2020-02-07
     <td align="center">✅</td>
   </tr>
   <tr>
-    <td>flagged</td>
+    <td>flag</td>
     <td>"Mr. Tile, are you flagged?"</td>
     <td align="center">✅</td>
   </tr>
   <tr>
-    <td>has_mine</td>
+    <td>unflag</td>
     <td>"Mr. Tile, are you unflagged?"</td>
     <td align="center">✅</td>
   </tr>
