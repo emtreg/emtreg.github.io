@@ -15,22 +15,22 @@ date: 2020-02-07
 
 <p>Now, let's apply the second method to each of the classes in my Minesweeper program:</p>
 
-<p><b>Tile Class:</b></p>
+<p><b>Tile:</b></p>
 <p>&emsp;The Tile class <b>updates a tile's symbols in response to an action being performed on it</b> (i.e. the tile is selected/flagged/unflagged).</p>
 
-<p><b>Board Class:</b></p>
+<p><b>Board:</b></p>
 <p>&emsp;The Board class <b>populates the gameboard</b>, <b>performs flood-filling</b> and <b>displays the board</b>.</p>
 
-<p><b>MineCounter Class:</b></p>
+<p><b>MineCounter:</b></p>
 <p>&emsp;The MineCounter class <b>keeps track of how many mines are left on the board</b> and <b>displays that number to the user</b>.</p>
 
-<p><b>Player Class:</b></p>
+<p><b>Player:</b></p>
 <p>&emsp;The Player class <b>allows the player to make a move</b> (i.e. select, flag, unflag a tile).</p>
 
-<p><b>Game Class:</b></p>
+<p><b>Game:</b></p>
 <p>&emsp;The Game class <b>carries out the operations of the game until it is over</b> (won/lost).</p>
 
-<p><b>Minesweeper Class:</b></p>
+<p><b>Minesweeper:</b></p>
 <p>&emsp;The Minesweeper class <b>begins a new game</b>.</p>
 
 <!--
