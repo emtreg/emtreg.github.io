@@ -27,6 +27,21 @@ date: 2020-02-07
     <td>"Mr. Tile, do you have a mine?"</td>
     <td align="center">✅</td>
   </tr>
+  <tr>
+    <td>select</td>
+    <td>"Mr. Tile, are you selected?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>flagged</td>
+    <td>"Mr. Tile, are you flagged?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>has_mine</td>
+    <td>"Mr. Tile, are you unflagged?"</td>
+    <td align="center">✅</td>
+  </tr>
 </table>
 <p>Board class:</p>
 <p>Player class:</p>
