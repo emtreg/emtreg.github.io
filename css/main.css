@@ -63,9 +63,8 @@ ol li {
 }
 
 td, th {
-  border: 2px solid;
+  border: 1px solid;
   text-align: center;
-  padding: 8px;
   font-size: 1.5em;
   color: #333;
 }
