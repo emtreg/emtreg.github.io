@@ -13,9 +13,21 @@ date: 2020-02-07
 <p><b>2. Describe the class in one sentence</b></p>
 <p>&emsp; If the sentence contains the word 'and' then the class most likely has more than one responsibility. If it contains the word 'or', then it has multiple responsibilities which may not even be related.</p>
 
-<p>I am now going to apply the second method to each class in my Minesweeper program:</p>
+<p>Now, let's apply the first method to each of the classes in my Minesweeper program:</p>
 
-<p>Tile class:</p>
+<p>Tile class:</p> 
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Question</th>
+    <th>Makes Sense?</th>
+  </tr>
+  <tr>
+    <td>has_mine</td>
+    <td>"Mr. Tile, do you have a mine?"</td>
+    <td align="center">✅</td>
+  </tr>
+</table>
 <p>Board class:</p>
 <p>Player class:</p>
 <p>Game class:</p>
