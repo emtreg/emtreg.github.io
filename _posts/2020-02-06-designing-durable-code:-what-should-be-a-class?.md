@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Designing Durable Code: What Should Be a Class?"
+title: "What Should Be a Class?"
 date: 2020-02-06
 ---
 
