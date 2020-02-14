@@ -77,8 +77,31 @@ date: 2020-02-07
   </tr>
   <tr>
     <td>flood_fill / flood_fill_util</td>
-    <td>"Mr. Board, are you flood filled?"</td>
+    <td>"Mr. Board, have you been flood filled?"</td>
     <td align="center">❓</td>
+  </tr>
+</table>
+<p>MineCounter class:</p>
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Question</th>
+    <th>Makes Sense?</th>
+  </tr>
+  <tr>
+    <td>display</td>
+    <td>"Mr. MineCounter, are you displayed?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>increase</td>
+    <td>"Mr. MineCounter, has your count been increased?"</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>decrease</td>
+    <td>"Mr. MineCounter, has your count been decreased?"</td>
+    <td align="center">✅</td>
   </tr>
 </table>
 <p>Player class:</p>
