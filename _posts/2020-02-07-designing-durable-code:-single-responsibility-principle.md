@@ -16,22 +16,22 @@ date: 2020-02-07
 <p>Now, let's apply the second method to each of the classes in my Minesweeper program:</p>
 
 <p><b>Tile Class:</b></p>
-<p>The Tile class updates a tile's hidden and visible symbols in response to an action being performed on it (i.e. the tile is selected/flagged/unflagged).</p>
+<p><em>The Tile class updates a tile's hidden and visible symbols in response to an action being performed on it (i.e. the tile is selected/flagged/unflagged).</em></p>
 
 <p><b>Board Class:</b></p>
-<p>The Board class populates the gameboard, performs flood-filling and displays the board.</p>
+<p><em>The Board class populates the gameboard, performs flood-filling and displays the board.</em></p>
 
 <p><b>MineCounter Class:</b></p>
-<p>The MineCounter class keeps track of how many mines are left on the board and displays that number to the user.</p>
+<p><em>The MineCounter class keeps track of how many mines are left on the board and displays that number to the user.</em></p>
 
 <p><b>Player Class:</b></p>
-<p>The Player class allows the player to make a move (i.e. select, flag, unflag a tile)</p>
+<p><em>The Player class allows the player to make a move (i.e. select, flag, unflag a tile).</em></p>
 
 <p><b>Game Class:</b></p>
-<p>The Game class carries out the operations of the game until it is over (won/lost).</p>
+<p><em>The Game class carries out the operations of the game until it is over (won/lost).</em></p>
 
 <p><b>Minesweeper Class:</b></p>
-<p>The Minesweeper class begins a new game.</p>
+<p><em>The Minesweeper class begins a new game.</em></p>
 
 <!--
 <p>Tile class:</p> 
