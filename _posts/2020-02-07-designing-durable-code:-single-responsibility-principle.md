@@ -9,7 +9,7 @@ date: 2020-02-07
 
 <p>&emsp;Metz recommends two methods for determining if a class has a single responsibility:</p>
 <p>1. "Interrogate" the class</p>
-<p>&emsp;This strategy involves rephrasing each method in a class as a question. If, when posed to the class the resulting question makes sense, then that method is most likely related to the class's central purpose. For example, in the case of my Minesweeper program the Tile class contains a method that flags a tile. It would therefore make sense to ask the Tile class, <em>"Mr. Tile, are you flagged?"</em>. Yet the same could not be said of the Board class (<em>"Mr. Board, are you flagged?"</em>).
+<p>&emsp;This strategy involves rephrasing each method in a class as a question. If, when posed to the class, the resulting question makes sense, then that method is likely related to the class's central purpose. For example, in the case of my Minesweeper program the Tile class contains a method that flags a tile. It would therefore make sense to ask the Tile class, <em>"Mr. Tile, are you flagged?"</em> However, the same could not be said of the Board class (<em>"Mr. Board, are you flagged?"</em>).
 <p>2. Attempt to describe the class in one sentence</p>
 <p>&emsp; If the sentence contains the words 'and' or 'or', the class has more than one responsibility.</p>
 
