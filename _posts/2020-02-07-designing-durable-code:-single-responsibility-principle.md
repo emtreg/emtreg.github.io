@@ -13,10 +13,29 @@ date: 2020-02-07
 <p><b>2. Describe the class in one sentence</b></p>
 <p>&emsp; If the sentence contains the word 'and' then the class most likely has more than one responsibility. If it contains the word 'or', then it has multiple responsibilities which may not even be related.</p>
 
-<p>Now, let's apply the first method to each of the classes in my Minesweeper program:</p>
+<p>Now, let's apply the second method to each of the classes in my Minesweeper program:</p>
 
+<p>Tile Class:</p>
+<p>The Tile class updates a tile's hidden and visible symbols in response to an action being performed on it (i.e. the tile is selected/flagged/unflagged).</p>
+
+<p>Board Class:</p>
+<p>The Board class populates the gameboard, performs flood-filling and displays the board.</p>
+
+<p>MineCounter Class:</p>
+<p>The MineCounter class keeps track of how many mines are left on the board and displays that number to the user.</p>
+
+<p>Player Class:</p>
+<p>The Player class allows the player to make a move (i.e. select, flag, unflag a tile)</p>
+
+<p>Game Class:</p>
+<p>The Game class carries out the operations of the game until it is over (won/lost).</p>
+
+<p>Minesweeper Class:</p>
+<p>The Minesweeper class begins a new game.</p>
+
+<!--
 <p>Tile class:</p> 
-<table>
+<table class="center">
   <tr>
     <th>Method</th>
     <th>Question</th>
@@ -44,7 +63,7 @@ date: 2020-02-07
   </tr>
 </table>
 <p>Board class:</p>
-<table>
+<table class="center">
   <tr>
     <th>Method</th>
     <th>Question</th>
@@ -119,3 +138,4 @@ date: 2020-02-07
 </table>
 <p>Game class:</p>
 <p>Minesweeper class:</p>
+-->
