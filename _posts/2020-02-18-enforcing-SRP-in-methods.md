@@ -22,24 +22,24 @@ date: 2020-02-18
 		attr_accessor: :first_move
 		
 		def initialize
-			@first_move = true
+		@first_move = true
 		end
 	
 		#selects a tile
 		def select_tile(tile)
-			tile.select
-			return
+		tile.select
+		return
 		end
 
 		#flags a tile
 		def flag_tile(tile)
-			tile.flag
-			return
+		tile.flag
+		return
 		end
 
 		#unflags a tile
 		def unflag_tile(tile)
-			tile.unflag
+		tile.unflag
 		end
 	end
 {% endhighlight %}
