@@ -74,3 +74,9 @@ td, th {
   font-size: 1.5em;
   color: #333;
 }
+
+.moveimage
+{
+    position: relative;
+    top: 1px;
+}
