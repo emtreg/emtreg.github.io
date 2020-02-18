@@ -32,3 +32,5 @@ date: 2020-02-07
 
 <p><b>Minesweeper:</b></p>
 <p>&emsp;The Minesweeper class <b>begins a new game</b>.</p>
+
+<p>&emsp;After applying this method to each class, it's clear that both the Board and MineCounter classes have multiple responsibilities. It's important to note, however, that how I choose to address this problem is far from clear-cut. <a href="https://deviq.com/single-responsibility-principle/">If a particular class is stable and isn’t causing needless pain as a result of changes, there is little need to change it.</a> </p>
