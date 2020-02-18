@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enforcing SRP in Methods"
+title: "Enforcing Srp in Methods"
 date: 2020-02-18
 ---
 
