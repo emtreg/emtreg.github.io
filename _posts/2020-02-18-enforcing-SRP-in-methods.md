@@ -16,30 +16,30 @@ date: 2020-02-18
 <p>&emsp; In order to determine if the methods in my Minesweeper application adhere to the SRP, I will be taking a closer look at the comments I've written for each method. Let's start with the Player class (which is very straighforward): </p>
 
 {% highlight ruby %}
-class Player
-	attr_accessor :first_move
 
-	#sets first_move to true
-	def initialize
-		@first_move = true
+	class Player
+		
+		attr_accessor: :first_move
+		
+		def initialize
+			@first_move = true
+		end
+	
+		#selects a tile
+		def select_tile(tile)
+			tile.select
+			return
+		end
+
+		#flags a tile
+		def flag_tile(tile)
+			tile.flag
+			return
+		end
+
+		#unflags a tile
+		def unflag_tile(tile)
+			tile.unflag
+		end
 	end
-
-#selects a tile
-	def select_tile(tile)
-		tile.select
-		return
-	end
-
-#flags a tile
-	def flag_tile(tile)
-		tile.flag
-		return
-	end
-
-#unflags a tile
-	def unflag_tile(tile)
-		tile.unflag
-	end
-
-end
 {% endhighlight %}
