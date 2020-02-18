@@ -13,7 +13,7 @@ date: 2020-02-18
 </ol>
 
 <p>&emsp;The second point in this list is especially important, since methods that require internal comments often have more than one responsibility. If you have to explicitly describe certain behavior, it's best to create a separate method for that code.</p>
-<p>&emsp; In order to determine if the methods in my Minesweeper application adhere to the SRP, I will be taking a closer look at the comments I've written for each method. Let's start with the Player class (which is very straighforward): </p>
+<p>&emsp; In order to determine if the methods in my Minesweeper application adhere to the SRP, I will be taking a closer look at the comments I've written for each method. Let's start with the Player class: </p>
 
 {% highlight ruby %}
 
@@ -46,3 +46,5 @@ date: 2020-02-18
 	 
 	end
 {% endhighlight %}
+
+<p>As you can see, all of the methods in this class are very straightforward and are closely related to the Player class's central purpose: allow the player to make a move</p>
