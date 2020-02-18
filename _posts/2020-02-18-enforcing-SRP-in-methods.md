@@ -47,4 +47,4 @@ date: 2020-02-18
 	end
 {% endhighlight %}
 
-<p>As you can see, all of the methods in this class are very straightforward and are closely related to the Player class's central purpose: allow the player to make a move</p>
+<p>As you can see, all of the methods in this class are very straightforward and are closely related to the Player class's central purpose, which is to allow a player to make a move</p>
