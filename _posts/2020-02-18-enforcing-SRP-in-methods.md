@@ -47,4 +47,4 @@ date: 2020-02-18
 	end
 {% endhighlight %}
 
-<p>&emsp;As you can see, the methods in `PLAYER` are very straightforward and require minimal commentation. They are also closely related to the class's central purpose, which is to allow a player to make a move</p>
+<p>&emsp;As you can see, Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move).</p>
