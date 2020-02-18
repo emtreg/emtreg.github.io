@@ -22,6 +22,7 @@ date: 2020-02-18
 		
 	 attr_accessor :first_move
 	 
+	 #sets first_move to true
 	 def initialize
 	  @first_move = true
 	 end
