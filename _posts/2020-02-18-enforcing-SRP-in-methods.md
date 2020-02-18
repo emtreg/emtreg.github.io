@@ -17,6 +17,7 @@ date: 2020-02-18
 
 {% highlight ruby %}
 
+
 	class Player
 		
 	attr_accessor: :first_move
