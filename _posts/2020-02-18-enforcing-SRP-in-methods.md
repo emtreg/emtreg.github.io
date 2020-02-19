@@ -58,7 +58,7 @@ date: 2020-02-18
 
 	 attr_accessor :visible_symbol, :hidden_symbol
 
-	 #sets the tile's visible and hidden symbols
+	 #sets the tile's initial symbols
 	 def initialize(visible_symbol, hidden_symbol)
 	  @visible_symbol = visible_symbol
 	  @hidden_symbol = hidden_symbol
