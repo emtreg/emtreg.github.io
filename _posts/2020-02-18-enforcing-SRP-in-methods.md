@@ -43,8 +43,7 @@ date: 2020-02-18
 	 def unflag_tile(tile)
 	  tile.unflag
 	 end
-	 
-	end
+       end
 {% endhighlight %}
 
 <p>&emsp;As you can see, Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move). I therefore see no reason to change this class.</p>
