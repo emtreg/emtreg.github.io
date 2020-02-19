@@ -5,7 +5,8 @@ date: 2020-02-07
 
 ---
 
-<p>&emsp;In POODR Metz states that ideally, a class should do the smallest possible useful thing. This helps to limit dependencies by ensuring that classes are "reusable, pluggable units of well-defined behavior that have few entanglements". In order to achieve this, developers should aim to follow the <b>Single Responsiblity Principle</b> (SRP) when designing and creating classes. The goal of this principle is to increase cohesion within classes by ensuring that everything in a class (i.e. its data and behavior) is related to that class's central purpose.</p>
+<p>&emsp;In POODR Metz states that ideally, a class should do the smallest possible useful thing. This helps to limit dependencies by ensuring that classes are "reusable, pluggable units of well-defined behavior that have few entanglements".</p>
+<p>&emsp;In order to achieve this, developers should aim to follow the <b>Single Responsiblity Principle</b> (SRP) when designing and creating classes. The goal of this principle is to increase cohesion within classes by ensuring that everything in a class (i.e. its data and behavior) is related to that class's central purpose.</p>
 
 <p>&emsp;Metz recommends two methods for determining if a class has a single responsibility:</p>
 <p><b>1. "Interrogate" the class</b></p>
