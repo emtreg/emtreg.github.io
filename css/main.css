@@ -47,6 +47,11 @@ ul.posts li {
     list-style: none;
 }
 
+.excerpt {
+    font-size: 1em;
+    line-height: 1em;
+    color: #333;
+}
 ol li {
     font-size: 1.5em;
     color: #333; 
