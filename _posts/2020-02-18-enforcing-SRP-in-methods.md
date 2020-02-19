@@ -94,7 +94,7 @@ date: 2020-02-18
 	
 {% endhighlight %}
 
-<p>&emsp; Once again, the methods that comprise the Tile class are very straightforward. I feel no need to break them up further.</p>
+<p>&emsp; Once again, each of these methods are very straightforward. I feel no need to break them up further.</p>
 
 
 
