@@ -77,13 +77,13 @@ date: 2020-02-18
 	  @visible_symbol = @hidden_symbol
 	 end
 
-	 #'flags' the tile by changing the visible symbol to a flag symbol
+	 #'flags' the tile by changing its visible symbol to a flag symbol
 	 def flag
 	  @visible_symbol = "F"
 	  return
 	 end
 
-	 #'unflags' the tile by reverting the visible symbol to its original symbol
+	 #'unflags' the tile by reverting its visible symbol to its original symbol
 	 def unflag
 	  if visible_symbol == "F"
 	   @visible_symbol = "."
