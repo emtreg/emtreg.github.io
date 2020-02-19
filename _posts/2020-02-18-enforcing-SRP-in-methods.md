@@ -47,4 +47,52 @@ date: 2020-02-18
 	end
 {% endhighlight %}
 
-<p>&emsp;As you can see, Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move).</p>
+<p>&emsp;As you can see, Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move). I therefore see no reason to change this class.</p>
+
+<p>&emsp;Next up is the Tile Class: </p>
+
+{% highlight ruby %}
+
+	require_relative 'Board'
+
+	class Tile
+
+	 attr_accessor :visible_symbol, :hidden_symbol
+
+	 #sets the tile's visible and hidden symbols
+	 def initialize(visible_symbol, hidden_symbol)
+	  @visible_symbol = visible_symbol
+	  @hidden_symbol = hidden_symbol
+	 end
+
+	 #indicates if a tile contains a mine
+	 def has_mine
+	  if hidden_symbol == "*"
+	   return true
+	  end
+	  return false
+	 end
+
+	 #'selects' a tile by revealing the tile's hidden symbol
+	 def select
+	  @visible_symbol = @hidden_symbol
+	 end
+
+	 #'flags' the tile by changing the visible symbol to a flag symbol
+	 def flag
+	  @visible_symbol = "F"
+	  return
+	 end
+
+	 #'unflags' the tile by reverting the visible symbol to its original symbol
+	 def unflag
+	  if visible_symbol == "F"
+	   @visible_symbol = "."
+	  end
+	 end
+	
+        end
+	
+{% endhighlight %}
+
+
