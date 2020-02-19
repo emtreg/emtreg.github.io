@@ -49,7 +49,7 @@ ul.posts li {
 
 .excerpt {
     font-size: 1em;
-    line-height: 1em;
+    line-height: normal;
     color: #333;
 }
 ol li {
