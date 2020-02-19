@@ -81,6 +81,13 @@ td, th {
     top: 6px;
 }
 
+.blogTitle 
+{
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    border-bottom: 1px solid #d5d5d5;
+}
+
 .highlight  { background: #fffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
