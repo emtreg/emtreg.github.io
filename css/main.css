@@ -87,6 +87,7 @@ td, th {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     border-bottom: 1px solid #d5d5d5;
     text-align: center;
+    padding: 8px;
 }
 
 .highlight  { background: #fffff; }
