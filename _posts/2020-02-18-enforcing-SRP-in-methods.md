@@ -48,7 +48,7 @@ date: 2020-02-18
 
 <p>&emsp;As you can see, Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move). I therefore see no reason to change this class.</p>
 
-<p>&emsp;Next up is the Tile Class: </p>
+<p>&emsp;Next up is the Tile class: </p>
 
 {% highlight ruby %}
 
@@ -93,5 +93,8 @@ date: 2020-02-18
         end
 	
 {% endhighlight %}
+
+<p>&emsp; Once again, the methods that comprise the Tile class are very straightforward. I feel no need to break them up further.</p>
+
 
 
