@@ -6,6 +6,8 @@ date: 2020-02-06
 
 <p>&emsp; In my last post I stated that as I make my way through POODR, I will be revisiting a command line Minesweeper game I've recently completed in order to make the existing code more durable.</p>
 
+<!--more-->
+
 <p>&emsp; First, let me give a brief overview of the program in its current form:</p>
 
 <img class="center" src="https://user-images.githubusercontent.com/34899774/74170631-38339300-4bfb-11ea-9c76-4bffc12f9511.png" alt="Minesweeper Program">
