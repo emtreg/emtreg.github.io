@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 50%;
 }
 
 .postTitle {
@@ -75,6 +75,11 @@ ol li {
 
 .nowrap {
   white-space: nowrap ;
+}
+
+.headerName {
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 td, th {
