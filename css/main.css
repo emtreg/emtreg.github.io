@@ -2,7 +2,11 @@ body {
     margin: 60px auto;
     width: 60%;
 }
-
+.postDate {
+    font-size: .5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #999;
+}
 .postTitle {
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
