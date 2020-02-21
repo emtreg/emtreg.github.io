@@ -6,6 +6,7 @@ body {
 .postTitle {
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #80bfff;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
