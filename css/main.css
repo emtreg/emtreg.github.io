@@ -5,11 +5,11 @@ body {
 
 .postTitle {
     font-size: 1em;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #80bfff;
 }
 nav ul, footer ul {
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -79,7 +79,7 @@ ol li {
 }
 
 .headerName {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 2em;
     color: #999;
 }
