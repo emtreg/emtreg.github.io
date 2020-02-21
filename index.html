@@ -6,7 +6,7 @@ title: Emily Tregelles
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-		<li><span class="postTitle">{{ post.date | date_to_string }}  >>  {{ post.title }}</span> 
+		<li><span class="postTitle">{{ post.date | date_to_string }} >> {{ post.title }}</span> 
 		    <div class="excerpt">{{ post.excerpt }}
           	<p><a href="{{ post.url }}" role="button">[Read more]</a></p></div>
 		</li>
