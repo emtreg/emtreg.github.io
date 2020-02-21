@@ -45,6 +45,10 @@ footer {
     font-size: .8em;
 }
 
+header {
+border-bottom: 1px solid #d5d5d5;
+}
+
 ul.posts { 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 20px auto 40px; 
