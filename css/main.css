@@ -32,10 +32,10 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -46,7 +46,7 @@ footer {
 }
 
 ul.posts { 
-    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
@@ -60,7 +60,7 @@ ul.posts li {
     color: #333;
 }
 ol li {
-    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     color: #333; 
 }
@@ -82,7 +82,7 @@ ol li {
 
 .headerName {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 2em;
+    font-size: 1.5em;
     color: #999;
 }
 
@@ -103,7 +103,7 @@ td, th {
 .blogTitle 
 {
     font-size: 2em;
-    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     border-bottom: 1px solid #d5d5d5;
     text-align: center;
     padding: 8px;
