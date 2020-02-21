@@ -39,7 +39,6 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -54,7 +53,6 @@ border-bottom: 1px solid #d5d5d5;
 }
 
 ul.posts { 
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
@@ -68,7 +66,6 @@ ul.posts li {
     color: #333;
 }
 ol li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     color: #333; 
 }
