@@ -5,11 +5,11 @@ body {
 
 .postTitle {
     font-size: 1em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
     color: #80bfff;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -35,6 +35,7 @@ h1 {
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
 }
 p {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -100,7 +101,7 @@ td, th {
 .blogTitle 
 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
     border-bottom: 1px solid #d5d5d5;
     text-align: center;
     padding: 8px;
