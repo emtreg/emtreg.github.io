@@ -77,8 +77,9 @@ ol li {
   white-space: nowrap ;
 }
 
-h2 {
+.headerName {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
     color: #999;
 }
 
