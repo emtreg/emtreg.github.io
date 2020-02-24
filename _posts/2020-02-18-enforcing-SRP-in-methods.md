@@ -132,7 +132,7 @@ date: 2020-02-18
 	  return self.num_mines
 	 end
 	
-       end
+        end
 	
 {% endhighlight %}
 
