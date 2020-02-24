@@ -54,7 +54,7 @@ date: 2020-02-18
 
 {% highlight ruby %}
 
-	require_relative 'Board'
+	require_relative 'board'
 
 	class Tile
 
