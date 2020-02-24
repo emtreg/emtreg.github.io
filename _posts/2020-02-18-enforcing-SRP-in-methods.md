@@ -96,7 +96,45 @@ date: 2020-02-18
 	
 {% endhighlight %}
 
-<p>&emsp; Once again, each method is very straightforward. I feel no need to break them up further.</p>
+<p>&emsp;Once again, each method in the Tile class performs a simple function. I'll be leaving this class as is.</p>
+
+<p>&emsp;Let's move on to the MineCounter class: </p>
+
+{% highlight ruby %}
+
+	require 'colorize'
+	require_relative 'game'
+
+	class MineCounter
+
+	attr_accessor :num_mines
+
+	 #initializes the number of mines
+	 def initialize(num_mines)
+	  @num_mines = num_mines
+	 end
+
+	 #displays the mine count
+	 def display
+	  puts "\n"
+	  puts "     MINES LEFT: ".green + num_mines.to_s.red
+	 end
+
+	 #decreases the mine count
+	 def decrease
+	  self.num_mines = self.num_mines - 1
+	  return self.num_mines	
+	 end
+
+	 #increases the mine count
+	 def increase
+	  self.num_mines = self.num_mines + 1
+	  return self.num_mines
+	 end
+	
+       end
+	
+{% endhighlight %}
 
 
 
