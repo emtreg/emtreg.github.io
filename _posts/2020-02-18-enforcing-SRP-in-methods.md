@@ -386,14 +386,14 @@ date: 2020-02-18
 
 {% highlight ruby %}
 
-    attr_accessor :height, :width, :tile_array
+        attr_accessor :height, :width, :tile_array
    
-    #initializes the board's dimensions and an array of tiles  
-    def initialize(height, width)
-     @height = height
-     @width = width
-     @tile_array = Array.new(height){Array.new(width)}
-    end
+         #initializes the board's dimensions and an array of tiles  
+         def initialize(height, width)
+          @height = height
+          @width = width
+          @tile_array = Array.new(height){Array.new(width)}
+        end
 
 {% endhighlight %}
 
