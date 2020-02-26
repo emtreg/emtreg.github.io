@@ -382,7 +382,7 @@ date: 2020-02-18
 
 <p>&emsp;There's a lot that needs to be changed in this class, so let's take a look at each individual method: </p>
 
-<code><mark>def initialize</mark></code>
+<p>&emsp;1. <code><mark>def initialize</mark></code></p>
 
 {% highlight ruby %}
 
