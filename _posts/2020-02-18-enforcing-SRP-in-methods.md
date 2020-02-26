@@ -393,7 +393,7 @@ date: 2020-02-18
           @height = height
           @width = width
           @tile_array = Array.new(height){Array.new(width)}
-        end
+         end
 
 {% endhighlight %}
 
