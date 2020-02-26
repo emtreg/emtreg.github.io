@@ -138,7 +138,7 @@ date: 2020-02-18
 
 <p>&emsp;As I mentioned in my last post, the MineCounter class appears to have multiple resonsibilities (which I will address later). However, the methods themselves do not need to be broken down further.</p>
 
-<p>&emsp;I've saved the tricker classes for last. If we take a look at the Board class for instance, it's methods are much more complex than any we've encountered so far. </p>
+<p>&emsp;I've saved the tricker classes for last. If we take a look at the Board class for instance, it's methods are much more complex than any encountered so far. </p>
 
 {% highlight ruby %}
 
@@ -380,7 +380,24 @@ date: 2020-02-18
 	
 {% endhighlight %}
 
-<p>&emsp;</p>
+<p>&emsp;There's a lot that needs to be changed in this class, so let's take a look at each individual method: </p>
+
+<code>def initialize</code>
+
+{% highlight ruby %}
+
+    attr_accessor :height, :width, :tile_array
+   
+    #initializes the board's dimensions and an array of tiles  
+    def initialize(height, width)
+     @height = height
+     @width = width
+     @tile_array = Array.new(height){Array.new(width)}
+    end
+
+{% endhighlight %}
+
+<p></p>
 
 
 
