@@ -485,8 +485,8 @@ date: 2020-02-18
 <br>
 <br>
 &emsp;&emsp; - <code><mark>first_move</mark></code> is an attribute of the <code><mark>Player</mark></code> class, so I will take care of this logic elsewhere
-<br>
 </li>
+<br>
 <li> I can move the array <code><mark>mine_coordinates</mark></code> to the <code><mark>initialize</mark></code> method. 
 </li>
 <br>
