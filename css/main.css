@@ -118,7 +118,7 @@ mark {
   background-color: #e6e6e6;
 }
 
-.highlight  { background: #fffff; }
+.highlight  { background: #e6e6ff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
