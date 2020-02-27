@@ -445,6 +445,8 @@ date: 2020-02-18
 
 <p>Next is the <code><mark>put_mines</mark></code> method, which requires a lot more work.</p>
 
+<p>&emsp;3. <code><mark>def put_mines</mark></code></p>
+
 {% highlight ruby %}
 
     #assigns mines to tiles on the board (changes their hidden symbol to "*")
