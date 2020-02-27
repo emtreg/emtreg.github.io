@@ -396,7 +396,7 @@ date: 2020-02-18
 
 {% endhighlight %}
 
-<p>&emsp;The <code><mark>initialize</mark></code> method sets the values of the class's instance variables. Metz states that instance variables whould be wrapped in encapsulation methods (i.e. getters and setters) which make it easier to change their values. Ruby's <code><mark>attr_accessor</mark></code> method takes care of this by automatically setting up getters and setters for a class's instance variables. There aren't any obvious changes that need to be made to this method, so let's move on.</p>
+<p>&emsp;The <code><mark>initialize</mark></code> method sets the values of the class's instance variables. Metz states that instance variables whould be wrapped in encapsulation methods (i.e. getters and setters) which make it easier to change their values. Ruby's <code><mark>attr_accessor</mark></code> method takes care of this by automatically setting up getters and setters for the indicated variables. There aren't any obvious changes that need to be made to this method, so let's move on.</p>
 
 <p>&emsp;2. <code><mark>def populate</mark></code></p>
 
@@ -414,6 +414,6 @@ date: 2020-02-18
 
 {% endhighlight %}
 
-<p></p>
+<p>&emsp;The <code><mark>populate</mark></code> method is responsible for populating the tiles in an array of Tile objects (essentially creating the gameboard). One issue I see with this class is that it doesn't follow Metz's recommendation that iteration should be separate from the action being performed on each individual element.</p>
 
 
