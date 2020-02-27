@@ -4,16 +4,16 @@ body {
 }
 .postDate {
     font-size: .7em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #999;
 }
 .postTitle {
-    font-size: 1em;
+    font-size: 1.3em;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #80bfff;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -23,7 +23,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-decoration: none;
     color: #999;
 }
@@ -33,16 +33,16 @@ a:hover {
 
 .link {
     color: #80bfff;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1 {
     font-size: 3;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #1a1a1a
 }
 p {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.3em;
     line-height: 1.4em;
     color: #333;
@@ -63,18 +63,18 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333; 
 }
 
 .excerpt {
     font-size: .7em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333;
 }
 ol li {
     font-size: 1.3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333; 
 }
 
@@ -94,7 +94,8 @@ ol li {
 }
 
 .headerName {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    /*font-family: 'Helvetica', 'Arial', 'Sans-Serif';*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #999;
 }
 
@@ -115,7 +116,7 @@ td, th {
 .blogTitle 
 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     border-bottom: 1px solid #d5d5d5;
     text-align: center;
     padding: 8px;
