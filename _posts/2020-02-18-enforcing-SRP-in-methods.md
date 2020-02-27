@@ -396,7 +396,24 @@ date: 2020-02-18
 
 {% endhighlight %}
 
-<p></p>
+<p>&emsp;The <code><mark>initialize</mark></code> method sets the values of the class's instance variables. Metz states that instance variables whould be wrapped in encapsulation methods (i.e. getters and setters) which make it easier to change their values. Ruby's <code><mark>attr_accessor</mark></code> method takes care of this by automatically setting up getters and setters for a class's instance variables. There aren't any obvious changes that need to be made to this method, so let's move on.</p>
 
+<p>&emsp;2. <code><mark>def populate</mark></code></p>
+
+{% highlight ruby %}
+
+        #populates the tile_array with Tile objects
+	 # sets tile's initial symbols
+	 def populate
+	  (0..9).each do |row|
+	   (0..9).each do |column|
+	    tile_array[row][column] = Tile.new(".","")
+	    end
+	   end
+	  end
+
+{% endhighlight %}
+
+<p></p>
 
 
