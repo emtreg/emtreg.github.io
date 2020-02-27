@@ -417,7 +417,7 @@ date: 2020-02-18
 
 <p>&emsp;The <code><mark>populate</mark></code> method is responsible for populating the tiles in an array of Tile objects (essentially creating the gameboard). One issue I see with this class is that it doesn't follow Metz's recommendation that <b>iteration should be separated from the action being performed on each individual element</b>.</p>
 
-<p>&emsp;To fix this, I created the method <code><mark>add_tile</mark></code> to contain the code within the <code><mark>.each do</mark></code> loop. I also created a <code><mark>get_tile</mark></code> method to access each index in the <code><mark>tile_array</mark></code>. Here are the resulting three methods: </p> 
+<p>&emsp;To fix this, I created the method <code><mark>add_tile</mark></code> to contain the code within the <code><mark>.each do</mark></code> loop. I also created a <code><mark>get_tile</mark></code> method to access each index in the <code><mark>tile_array</mark></code>. Here are the three resulting methods: </p> 
 
 {% highlight ruby %}
 
@@ -476,6 +476,17 @@ date: 2020-02-18
 
 {% endhighlight %}
 
+<p>&emsp;As you can see, I've included a lot of commentation within the method. This tells me that I'll need to break it down into smaller methods in order to enforce the SRP.</p>
+
+<p>&emsp;Here are a few of my thoughts on the changes that should be made to <code><mark>put_mines</mark></code></p>
+
+<ol>
+<li> <code><mark>put_mines</mark></code> should not know about <code><mark>first_move</mark></code>
+<li> <code><mark>first_move</mark></code> is an attribute of the <code><mark>Player</mark></code> class, so I will 	take care of this logic elsewhere. </li>		
+</li>
+<li> I can move the array <code><mark>mine_coordinates</mark></code> to the <code><mark>initialize</mark></code> method. 
+</li>
+</ol>
 
 
 
