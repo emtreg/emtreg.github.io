@@ -415,6 +415,37 @@ date: 2020-02-18
 
 {% endhighlight %}
 
-<p>&emsp;The <code><mark>populate</mark></code> method is responsible for populating the tiles in an array of Tile objects (essentially creating the gameboard). One issue I see with this class is that it doesn't follow Metz's recommendation that iteration should be separate from the action being performed on each individual element.</p>
+<p>&emsp;The <code><mark>populate</mark></code> method is responsible for populating the tiles in an array of Tile objects (essentially creating the gameboard). One issue I see with this class is that it doesn't follow Metz's recommendation that <b>iteration should be separated from the action being performed on each individual element</b>.</p>
+
+<p>&emsp;To fix this, I created the method <code><mark>add_tile</mark></code> to contain the code within the <code><mark>.each do</mark></code> loop. I also created a <code><mark>get_tile</mark></code> method to access each index in the <code><mark>tile_array</mark></code>. Here are the resulting three methods: </p> 
+
+{% highlight ruby %}
+
+    #populates the tile_array with Tile objects
+    def populate
+     (0..9).each do |row|
+      (0..9).each do |column|
+       add_tile(row, column)
+      end
+     end	
+    end
+
+    #adds a new tile to the tile_array
+    def add_tile(row, column)
+     tile = get_tile(row, column) 
+     tile = Tile.new(".","")
+    end
+
+    #gets tile from tile_array
+    def get_tile(row, column)
+     return tile_array[row][column]
+    end
+
+{% endhighlight %}
+
+
+
+
+
 
 
