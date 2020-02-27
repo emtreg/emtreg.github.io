@@ -124,6 +124,7 @@ td, th {
 
 mark { 
   background-color: #e6e6e6;
+  font-size: 1.3em;
 }
 
 /*.highlight  { background: #e6e6ff; }*/
