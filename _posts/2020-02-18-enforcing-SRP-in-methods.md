@@ -482,7 +482,7 @@ date: 2020-02-18
 
 <ol>
 <li> <code><mark>put_mines</mark></code> should not know about <code><mark>first_move</mark></code>
-<li> <code><mark>first_move</mark></code> is an attribute of the <code><mark>Player</mark></code> class, so I will 	take care of this logic elsewhere. </li>		
+(<code><mark>first_move</mark></code> is an attribute of the <code><mark>Player</mark></code> class, so I will 	take care of this logic elsewhere)		
 </li>
 <li> I can move the array <code><mark>mine_coordinates</mark></code> to the <code><mark>initialize</mark></code> method. 
 </li>
