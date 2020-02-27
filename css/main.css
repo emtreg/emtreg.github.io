@@ -186,6 +186,6 @@ mark {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 .post > .highlight .lineno { height: 200px; font-size: 1.5em; color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
-.post > .highlight pre code { height: 200px; font-size: 1.5em; display: block; margin-left: auto; margin-right: auto; width: 80%; background-color: #e6e6ff; white-space: pre; overflow-x: scroll; word-wrap: normal; }
+.post > .highlight pre code { height: 200px; font-size: 1.5em; display: block; margin-left: auto; margin-right: auto; width: 90%; background-color: #e6e6ff; white-space: pre; overflow-x: scroll; word-wrap: normal; }
 
 
