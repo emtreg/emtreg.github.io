@@ -482,27 +482,22 @@ date: 2020-02-18
 
 <ol>
 <li> <code><mark>put_mines</mark></code> should not know about <code><mark>first_move</mark></code>
-<ul>
-<li><code><mark>first_move</mark></code> is an attribute of the <code><mark>Player</mark></code> class, so I will 	take care of this logic elsewhere</li>	
-</ul>
-</li>
+
+<p>&emsp;&emsp; - <code><mark>first_move</mark></code> is an attribute of the <code><mark>Player</mark></code> class, so I will 	take care of this logic elsewhere</li></p>
+
+
 <li> I can move the array <code><mark>mine_coordinates</mark></code> to the <code><mark>initialize</mark></code> method. 
 </li>
 <li> I should create separate methods to house the code for:
-	<ul>
-	<li> 
-		Generating a random number between 0 and 99
-	</li>
-	<li> 
-		Converting a random number to tile coordinates
-	</li>
-	<li> 
-		Adding tiles to the <code><mark>mine_coordinates</mark></code> array
-	</li>
-	<li>
-		Setting a tile's hidden symbol to a mine
-	</li>
-	</ul>
+	
+<p>&emsp;&emsp; - Generating a random number between 0 and 99</p>
+
+<p>&emsp;&emsp; - Converting a random number to tile coordinates</p>
+
+<p>&emsp;&emsp; - Adding tiles to the <code><mark>mine_coordinates</mark></code> array</p>
+	
+<p>&emsp;&emsp; - Setting a tile's hidden symbol to a mine</p>
+		
 </li>
 </ol>
 
