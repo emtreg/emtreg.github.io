@@ -180,6 +180,6 @@ mark {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 .post > .highlight .lineno { height: 100px; width: 700px; font-size: 1.5em; color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
-.post > .highlight pre code { height: 100px; width: 700px; font-size: 1.5em; display: block; white-space: pre; overflow-x: scroll; word-wrap: normal; }
+.post > .highlight pre code { height: 100px; width: 700px; font-size: 1.5em; display: block; background-color: #e6e6ff; white-space: pre; overflow-x: scroll; word-wrap: normal; }
 
 
