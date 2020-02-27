@@ -118,7 +118,7 @@ mark {
   background-color: #e6e6e6;
 }
 
-.highlight  { background: #e6e6ff; }
+/*.highlight  { background: #e6e6ff; }*/
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -179,7 +179,7 @@ mark {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
-.post > .highlight .lineno { height: 100px; width: 500px; font-size: 1.5em; color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
-.post > .highlight pre code { height: 100px; width: 500px; font-size: 1.5em; display: block; background-color: #e6e6ff; white-space: pre; overflow-x: scroll; word-wrap: normal; }
+.post > .highlight .lineno { height: 200px; width: 500px; font-size: 1.5em; color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.post > .highlight pre code { height: 200px; width: 500px; font-size: 1.5em; display: block; background-color: #e6e6ff; white-space: pre; overflow-x: scroll; word-wrap: normal; }
 
 
