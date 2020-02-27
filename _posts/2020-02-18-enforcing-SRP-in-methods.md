@@ -443,6 +443,36 @@ date: 2020-02-18
 
 {% endhighlight %}
 
+<p>Next is the <code><mark>put_mines</mark></code> method, which requires a lot more work.</p>
+
+{% highlight ruby %}
+
+    #assigns mines to tiles on the board (changes their hidden symbol to "*")
+    def put_mines(coordinates, first_move)
+     if first_move == true
+     #create array to hold coordinates of tiles containing mines
+     mine_coordinates = Array.new(10)
+     #generate a random number between 0 and 99
+     random_coordinate = rand(100).to_s
+     #convert random number to tile coordinates
+     random_coordinate = convert_random_coordinate(random_coordinate)
+     10.times {
+      #check if mine_coordinates array already includes randomly generated coordinates or if randomly generated  
+      coordinates equal first move coordinates
+      while mine_coordinates.include?(random_coordinate) || random_coordinate == coordinates
+       #generate a random number between 0 and 99
+       random_coordinate = rand(100).to_s
+       #convert random number to tile coordinates
+       random_coordinate = convert_random_coordinate(random_coordinate)
+      end
+      #add coordinates to mine_coordinates array
+      mine_coordinates.push(random_coordinate)
+      #set tile's hidden symbol to a mine
+      tile_array[random_coordinate[0].to_i][random_coordinate[1].to_i].hidden_symbol = "*"
+     }		
+    end
+
+{% endhighlight %}
 
 
 
