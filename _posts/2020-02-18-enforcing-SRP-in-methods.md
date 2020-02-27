@@ -20,32 +20,32 @@ date: 2020-02-18
 {% highlight ruby %}
 
 
-	class Player
-		
-	 attr_accessor :first_move
-	 
-	 #sets first_move to true
-	 def initialize
-	  @first_move = true
-	 end
-	
-	 #selects a tile
-	 def select_tile(tile)
-	  tile.select
-	  return
-	 end
+class Player
 
-	 #flags a tile
-	 def flag_tile(tile)
-	  tile.flag
-	  return
-	 end
+ attr_accessor :first_move
 
-	 #unflags a tile
-	 def unflag_tile(tile)
-	  tile.unflag
-	 end
-       end
+ #sets first_move to true
+ def initialize
+  @first_move = true
+ end
+
+ #selects a tile
+ def select_tile(tile)
+  tile.select
+  return
+ end
+
+ #flags a tile
+ def flag_tile(tile)
+  tile.flag
+  return
+ end
+
+ #unflags a tile
+ def unflag_tile(tile)
+  tile.unflag
+ end
+end
 {% endhighlight %}
 
 <p>&emsp;As you can see, Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move). I therefore see no reason to change this class.</p>
@@ -380,7 +380,7 @@ date: 2020-02-18
 	
 {% endhighlight %}
 
-<p>&emsp;There's a lot that needs to be changed in this class, so let's take a look at each individual method: </p>
+<p>&emsp;There's a lot that needs to be changed in this class, so let's take a look at each method individually: </p>
 
 <p>&emsp;1. <code><mark>def initialize</mark></code></p>
 
