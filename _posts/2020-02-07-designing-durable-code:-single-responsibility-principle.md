@@ -30,7 +30,7 @@ date: 2020-02-07
 <p>&emsp;The <code><mark>Player</mark></code> class allows the player to make a move (i.e. select, flag, unflag a tile).</p>
 
 <p><b><code><mark>Game</mark></code>:</b></p>
-<p>&emsp;The <code><mark>Game</mark></code> class <b>carries out the operations of the game until it is won/lost</b>.</p>
+<p>&emsp;The <code><mark>Game</mark></code> class carries out the operations of the game until it is won/lost.</p>
 
 <p><b><code><mark>Minesweeper</mark></code>:</b></p>
 <p>&emsp;The <code><mark>Minesweeper</mark></code> class begins a new game.</p>
