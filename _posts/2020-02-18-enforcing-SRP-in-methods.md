@@ -504,6 +504,7 @@ date: 2020-02-18
 <br>
 &emsp;&emsp; - Setting a tile's hidden symbol to a mine
 <br>
+<br>
 </li>
 <li> The code within the <code><mark>10.times</mark></code> loop should be placed in a separate method(s)	
 </li>
