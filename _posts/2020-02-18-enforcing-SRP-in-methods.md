@@ -505,7 +505,71 @@ date: 2020-02-18
 &emsp;&emsp; - Setting a tile's hidden symbol to a mine
 <br>
 </li>
+<li> The code within the <code><mark>10.times</mark></code> loop should be placed in a separate method(s)	
+</li>
 </ol>
+
+<p>&emsp; After implementing the changes listed above, here is the resulting code: </p>
+
+{% highlight ruby %}
+    
+    #assigns mines to tiles on the board
+    def put_mines_on_board(first_move_coordinates)
+     10.times {
+      put_mine(first_move_coordinates)
+     }
+     end
+
+     #performs operations for placing a mine
+     def put_mine(first_move_coordinates)
+      coordinates = get_valid_coordinates(first_move_coordinates)
+      add_mine_coordinates(coordinates)
+      assign_mine_to_tile(coordinates[0].to_i, coordinates[1].to_i])
+     end
+
+     #returns valid coordinates (coordinates that don't already contain a mine and don't equal the first move coordinates)
+     def get_valid_coordinates(first_move_coordinates)
+      coordinates = generate_random_coordinates
+      while mine_coordinates.include?(coordinates) || coordinates == first_move_coordinates
+       coordinates = generate_random_coordinates
+      end
+      return coordinates
+     end
+
+     #adds coordinates to mine_coordinates array
+     def add_mine_coordinates(coordinates)
+      mine_coordinates.push(coordinates)
+     end
+
+     #changes a tile's hidden symbol to a mine
+     def assign_mine_to_tile(row, column)
+      tile = get_tile(row, column)
+      tile.hidden_symbol = "*"
+     end
+
+     #generates random coordinates
+     def generate_random_coordinates
+      random_number = rand(100)
+      coordinates = convert_to_coordinates(random_number)
+      return coordinates
+     end
+
+     #converts a random number to tile coordinates (ex. 1 -> 01)
+     def convert_to_coordinates(number)
+      number = number.to_s
+      if number.length == 1
+       row = "0"
+       column = number
+      else
+       row = number[0]
+       column = number[1]
+      end
+      coordinates = row + column
+      return coordinates
+     end
+
+{% endhighlight %}
+
 
 
 
