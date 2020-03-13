@@ -250,6 +250,7 @@ date: 2020-02-18
         tile = tile_array[row][column]
         if tile.has_mine != true
          index = (row.to_s + column.to_s).to_i
+	 
          n  = index-10
          s  = index+10
          w  = index-1
@@ -380,7 +381,7 @@ date: 2020-02-18
 	
 {% endhighlight %}
 
-<p>&emsp;There's a lot that needs to be changed in this class, so let's take a look at each method individually: </p>
+<p>&emsp;I need to make many changes to this class, so let's take a look at each method individually: </p>
 
 <p>&emsp;1. <code><mark>def initialize</mark></code></p>
 
@@ -443,7 +444,7 @@ date: 2020-02-18
 
 {% endhighlight %}
 
-<p>Next is the <code><mark>put_mines</mark></code> method, which requires a lot more work.</p>
+<p>Next is the <code><mark>put_mines</mark></code> method, which needs to be broken down much further.</p>
 
 <p>&emsp;3. <code><mark>def put_mines</mark></code></p>
 
@@ -460,7 +461,7 @@ date: 2020-02-18
      random_coordinate = convert_random_coordinate(random_coordinate)
      10.times {
       #check if mine_coordinates array already includes randomly generated coordinates or if randomly generated  
-      coordinates equal first move coordinates
+      #coordinates equal first move coordinates
       while mine_coordinates.include?(random_coordinate) || random_coordinate == coordinates
        #generate a random number between 0 and 99
        random_coordinate = rand(100).to_s
@@ -476,34 +477,28 @@ date: 2020-02-18
 
 {% endhighlight %}
 
-<p>&emsp;As you can see, I've included a lot of commentation within the method. This tells me that I'll need to break it down into smaller methods in order to enforce the SRP.</p>
+<p>&emsp;As you can see, I've included ample commentation within the method. This tells me that I'll need to break it down into smaller methods in order to enforce the SRP.</p>
 
 <p>&emsp;Here are a few of my thoughts on the changes that should be made to <code><mark>put_mines</mark></code></p>
 
 <ol>
-<li> <code><mark>put_mines</mark></code> should not know about <code><mark>first_move</mark></code>
-<br>
+<li> <code><mark>first_move</mark></code> doesn't need to be passed to <code><mark>put_mines</mark></code> 
 <br>
 &emsp;&emsp; - <code><mark>first_move</mark></code> is an attribute of the <code><mark>Player</mark></code> class, so I will take care of this logic elsewhere
 </li>
 <br>
-<li> I can move the array <code><mark>mine_coordinates</mark></code> to the <code><mark>initialize</mark></code> method. 
+<li> I can move the array <code><mark>mine_coordinates</mark></code> to the <code><mark>initialize</mark></code> method
 </li>
 <br>
 <li> I should create separate methods to house the code for:
 <br>
-<br>
 &emsp;&emsp; - Generating a random number between 0 and 99
-<br>
 <br>
 &emsp;&emsp; - Converting a random number to tile coordinates
 <br>
-<br>
 &emsp;&emsp; - Adding tiles to the <code><mark>mine_coordinates</mark></code> array
 <br>
-<br>
 &emsp;&emsp; - Setting a tile's hidden symbol to a mine
-<br>
 <br>
 </li>
 <li> The code within the <code><mark>10.times</mark></code> loop should be placed in a separate method(s)	
@@ -530,9 +525,11 @@ date: 2020-02-18
 
      #returns valid coordinates (coordinates that don't already contain a mine and don't equal the first move coordinates)
      def get_valid_coordinates(first_move_coordinates)
-      coordinates = generate_random_coordinates
+      random_number = generate_random_number
+      coordinates = generate_random_coordinates(random_number)
       while mine_coordinates.include?(coordinates) || coordinates == first_move_coordinates
-       coordinates = generate_random_coordinates
+       random_number = generate_random_number
+       coordinates = generate_random_coordinates(random_number)
       end
       return coordinates
      end
@@ -547,10 +544,14 @@ date: 2020-02-18
       tile = get_tile(row, column)
       tile.hidden_symbol = "*"
      end
+     
+     def generate_random_number
+      random_number = rand(100)
+      return random_number
+     end
 
      #generates random coordinates
-     def generate_random_coordinates
-      random_number = rand(100)
+     def generate_random_coordinates(random_number)
       coordinates = convert_to_coordinates(random_number)
       return coordinates
      end
@@ -570,6 +571,108 @@ date: 2020-02-18
      end
 
 {% endhighlight %}
+
+<p>&emsp;By breaking down <code><mark>put_mines</mark></code> into several smaller methods, I have managed to both clean up my code and limit dependencies.</p>
+
+<p>&emsp;Now for the <code><mark>display</mark></code> method: </p>
+
+{% highlight ruby %}
+
+     #displays the board
+     def display	
+      row_count = 0
+      puts "\n", "\t\t" + "     A   B   C   D   E   F   G   H   I   J" + "\n"
+      puts "\n"
+      print "\t\t" + row_count.to_s + "    "
+
+      (0..9).each do |row|
+       row_count+=1
+       (0..9).each do |column|
+        tile = tile_array[row][column]
+        symbol = tile.visible_symbol
+        if symbol == "."
+         print symbol + "   "
+        elsif symbol == "*"
+         print symbol.red.bold + "   "
+        elsif symbol == " "
+         print symbol + "   "
+        elsif symbol == "F"
+         print symbol.bold.on_light_red + "   "
+        elsif symbol == "1"
+         print symbol.cyan + "   "
+        elsif symbol == "2"
+         print symbol.light_magenta + "   "
+        elsif symbol == "3"
+         print symbol.light_yellow + "   "
+        elsif symbol == "4"
+         print symbol.light_green + "   "
+        elsif symbol == "5" || symbol == "6" || symbol == "7" || symbol == "8"
+         print symbol.red + "   "
+        end
+        if column == 9 && row_count < 10
+         print "\n\n" + "\t\t" + row_count.to_s + "    "
+        end
+       end
+      end
+      puts "\n\n"			
+     end
+     
+{% endhighlight %}
+
+<p>&emsp;When it comes to displaying elements, the SRP recommends separating formatting (i.e. displaying text in red) from the actual data it's being applied on. </p>
+
+<p>&emsp; For now I'm going to break down this method further in order to untangle some of its responsibilites. Then I can revisit this issue later on.</p>
+
+{% highlight ruby %}
+
+     #displays the board
+     def display
+      puts "\n", "\t\t" + "     A   B   C   D   E   F   G   H   I   J" + "\n"
+      puts "\n"
+      print "\t\t" + row_count.to_s + "    "
+      (0..9).each do |row|
+       increase_row_count(row_count)
+       (0..9).each do |column|
+        print_tile(row, column)
+       end
+      end
+      puts "\n\n"
+     end
+
+     def increase_row_count(row_count)
+      row_count+=1
+     end
+
+     def print_tile(row, column)
+      tile = get_tile(row, column)
+      symbol = tile.visible_symbol
+      if symbol == "."
+       print symbol + "   "
+      elsif symbol == "*"
+       print symbol.red.bold + "   "
+      elsif symbol == " "
+       print symbol + "   "
+      elsif symbol == "F"
+       print symbol.bold.on_light_red + "   "
+      elsif symbol == "1"
+       print symbol.cyan + "   "
+      elsif symbol == "2"
+       print symbol.light_magenta + "   "
+      elsif symbol == "3"
+       print symbol.light_yellow + "   "
+      elsif symbol == "4"
+       print symbol.light_green + "   "
+      elsif symbol == "5" || symbol == "6" || symbol == "7" || symbol == "8"
+       print symbol.red + "   "
+      end
+      if column == 9 && row_count < 10
+       print "\n\n" + "\t\t" + row_count.to_s + "    "
+      end
+     end
+     
+{% endhighlight %}
+
+
 
 
 
