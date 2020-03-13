@@ -177,7 +177,7 @@ date: 2020-02-18
        random_coordinate = convert_random_coordinate(random_coordinate)
        10.times {
         #check if mine_coordinates array already includes randomly generated coordinates or if randomly generated  
-        coordinates equal first move coordinates
+        #coordinates equal first move coordinates
         while mine_coordinates.include?(random_coordinate) || random_coordinate == coordinates
          #generate a random number between 0 and 99
          random_coordinate = rand(100).to_s
