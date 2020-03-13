@@ -621,7 +621,7 @@ date: 2020-02-18
 
 <p>&emsp;When it comes to displaying elements, the SRP recommends separating formatting (i.e. displaying text in red) from the actual data it's being applied on. </p>
 
-<p>&emsp; For now I'm going to break down this method further in order to untangle some of its responsibilites. Then I can revisit this issue later on.</p>
+<p>&emsp; For now I'm going to break down this method further in order to untangle some of its responsibilites. Then I can revisit the issue at a later point.</p>
 
 {% highlight ruby %}
 
