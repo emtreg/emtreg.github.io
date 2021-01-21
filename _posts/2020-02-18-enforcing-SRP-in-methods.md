@@ -14,7 +14,7 @@ date: 2020-02-18
 
 <!--more-->
 
-<p>&emsp;The second point in this list is especially important, since methods that require internal comments often have more than one responsibility. If you have to explicitly describe certain behavior, it's best to create a separate method for that code.</p>
+<p>&emsp;The second point in this list is especially important, since methods that require internal commentation often have more than one responsibility. If you have to explicitly describe certain behavior, it's best to create a separate method for that code.</p>
 <p>&emsp; In order to determine if the methods in my Minesweeper application adhere to the SRP, I will be taking a closer look at the comments I've written for each method. Let's start with the Player class: </p>
 
 {% highlight ruby %}
@@ -48,7 +48,7 @@ date: 2020-02-18
     end
 {% endhighlight %}
 
-<p>&emsp;As you can see, Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move). I therefore see no reason to change this class.</p>
+<p>&emsp;Player's methods are very straightforward and require minimal commentation. They are also closely related to the class's central purpose (allowing a player to make a move). I therefore see no reason to change this class.</p>
 
 <p>&emsp;Next up is the Tile class: </p>
 
@@ -138,7 +138,7 @@ date: 2020-02-18
 
 <p>&emsp;As I mentioned in my last post, the MineCounter class appears to have multiple resonsibilities (which I will address later). However, the methods themselves do not need to be broken down further.</p>
 
-<p>&emsp;I've saved the tricker classes for last. If we take a look at the Board class for instance, it's methods are much more complex than any encountered so far. </p>
+<p>&emsp;Finally, I've saved the tricker classes for last. For instance, if we take a look at the Board class, it's methods are much more complex than any encountered so far. </p>
 
 {% highlight ruby %}
 
@@ -477,7 +477,7 @@ date: 2020-02-18
 
 {% endhighlight %}
 
-<p>&emsp;As you can see, I've included ample commentation within the method. This tells me that I'll need to break it down into smaller methods in order to enforce the SRP.</p>
+<p>&emsp;I've included ample commentation within the method. This tells me that I'll need to break it down into smaller methods in order to enforce the SRP.</p>
 
 <p>&emsp;Here are a few of my thoughts on the changes that should be made to <code><mark>put_mines</mark></code></p>
 
@@ -619,7 +619,7 @@ date: 2020-02-18
      
 {% endhighlight %}
 
-<p>&emsp;When it comes to displaying elements, the SRP recommends separating formatting (i.e. displaying text in red) from the actual data it's being applied on. </p>
+<p>&emsp;When it comes to displaying elements, the SRP recommends separating formatting (ex. displaying certain text in red) from the actual data it's being applied on. </p>
 
 <p>&emsp; For now I'm going to break down this method further in order to untangle some of its responsibilites. Then I can revisit the issue at a later point.</p>
 
