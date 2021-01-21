@@ -26,8 +26,8 @@ date: 2020-02-06
 <p>&emsp;Metz's first rule for determining what should be a class is to look at the nouns in the description of the application.</p>
 <p>&emsp;Let's revisit my program's description from above:</p>
 <p>&emsp;"In this <b>Minesweeper program</b>, there are ten <b>mines</b> hidden within the <b>tiles</b> of a <b>board</b>, and a <b>player</b> must successfully flag all of these <b>tiles</b> in order to win the <b>game</b>. A <b>counter</b> keeps track of how many mines are left on the board. As the <b>player</b> selects each <b>tile</b>, a tile may reveal a <b>number</b> indicating how many <b>mines</b> immediately surround it. If a <b>tile</b> has no neighboring <b>mines</b>, its surrounding <b>tiles</b> will be revealed recursively"</p>
-<p>&emsp;As you can see, I have created classes to represent each of the nouns in the description, except for <b>mines</b> and <b>numbers</b>. This is due to Metz's second rule: a noun that has both <em>data</em> and <em>behavior</em> associated with it deserves to be a class.</p>
-<p>&emsp;Whereas each of the other nouns adhere to this rule, mines and numbers fall short. It's true that a tile may contain a mine or a number, and, if selected, will reveal this symbol to the player. Yet both lack the necessary data and behavior which would make them eligible for their own classes.</p>
+<p>&emsp;I have created classes to represent each of the nouns in the description, except for <b>mines</b> and <b>numbers</b>. This is due to Metz's second rule: a noun that has both <em>data</em> and <em>behavior</em> associated with it deserves to be a class.</p>
+<p>&emsp;Whereas each of the other nouns adhere to this rule, mines and numbers fall short. It's true that a tile may contain a mine or a number, and that, if selected, it will reveal this symbol to the player. Yet both lack the necessary data and behavior which would make them eligible for their own classes.</p>
 <p>&emsp;So far, so good! I'm happy with the classes I created for my Minesweeper application. But now comes the hard part: determining if each class has a single responsibility.</p>
 
 
