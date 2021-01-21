@@ -7,7 +7,7 @@ title: Posts
 		<ul class="posts">
 
 		  {% for post in site.posts %}
-			<li><span class="postTitle">{{ post.title }}</span>
+			<li><a class="postTitle">{{ post.title }}</a>
 			<span class = "postDate">{{ post.date | date_to_string }}</span>
 			    <div class="excerpt">{{ post.excerpt }}
 			<p><a href="{{ post.url }}" role="button">[Read more]</a></p></div>
