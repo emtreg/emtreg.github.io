@@ -672,7 +672,7 @@ date: 2020-02-18
      
 {% endhighlight %}
 
-<p>&emsp;After refactoring I'm left with three methods. The <code><mark>display</mark></code> method prints the column and row headers as well as the outer symbol associated with each tile. The method now calls two additional methods - <code><mark>increase_row_count</mark></code> and <code><mark>print_tile</mark></code> - from within its <code><mark>each do</mark></code> loops. </p>
+<p>&emsp;After refactoring I'm left with three methods. The <code><mark>display</mark></code> method prints the column and row headers as well as the outer symbol associated with each tile. <code><mark>display</mark></code> now calls two additional methods - <code><mark>increase_row_count</mark></code> and <code><mark>print_tile</mark></code> - from within its nested <code><mark>each do</mark></code> loop.</p>
 
 
 
