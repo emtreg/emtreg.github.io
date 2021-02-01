@@ -4,7 +4,7 @@ title: "The Advantages of Agile"
 date: 2021-01-27
 ---
 
-<p>Unlike the increasingly dated waterfall method, Agile methodologies choose to acknowledge and embrace changes that arise during the software development cycle. This approach values collaboration between the client and development team over a strict adherance to a predetermined contract. </p>
+<p>Unlike the increasingly dated waterfall method, Agile methodologies choose to acknowledge and embrace changes that arise during the software development cycle. This approach values collaboration between the client and development team over attempting to meet the often unrealistic deadlines put forth in predetermined contracts. </p>
 <!--
 <ol>
   <li>They have a clarifying effect on the class</li>
