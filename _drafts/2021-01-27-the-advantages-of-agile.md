@@ -4,7 +4,7 @@ title: "The Advantages of Agile"
 date: 2021-01-27
 ---
 
-<p>What is Agile?</p>
+<p>Unlike the increasingly dated waterfall method, Agile methodologies acknowledge the challenges that arise during the software develpment cycle and make a point of embracing necessary changes instead of simply adhering to a predetermined plan. </p>
 <!--
 <ol>
   <li>They have a clarifying effect on the class</li>
