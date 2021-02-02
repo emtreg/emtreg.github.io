@@ -5,7 +5,7 @@ date: 2021-01-27
 ---
 
 <h3>Why Use Agile?</h3>
-<p>&emsp;Unlike the increasingly dated waterfall method, agile methodology aims to acknowledge and embrace changes that arise during the software development cycle. This approach values collaboration between the client and development team over contract negotation (which often results in unrealistic expectations and deadlines). Agile follows a model of incremental delivery which ensures that quality, shippable software is routinely delivered to clients.</p>  
+<p>&emsp;Unlike the increasingly dated waterfall method, agile methodology aims to acknowledge and embrace changes that arise during the software development cycle. This approach values collaboration between the client and development team over contract negotation (which often results in unrealistic expectations and deadlines). Agile also follows a model of incremental delivery which ensures that quality, shippable software is routinely presented to clients.</p>  
   
  <!--more-->
 
