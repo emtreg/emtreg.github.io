@@ -4,7 +4,6 @@ title: "Introduction to React"
 date: 2022-08-02
 ---
 
-<p>&emsp;What is React?<p>
 <p>&emsp;react.js is a JavaScript library used for building user interfaces. React is fast, modular, scalable and flexible.</p>
 
 <!--more-->
