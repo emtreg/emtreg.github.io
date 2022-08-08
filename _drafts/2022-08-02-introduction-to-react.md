@@ -6,6 +6,8 @@ date: 2022-08-02
 
 <h1>Introduction to React</h1>
 
+<h2>JSX</h2>
+
 <p>&emsp;react.js is a JavaScript library used for building user interfaces. React is fast, modular, scalable and flexible.</p>
 
 <!--more-->
@@ -43,5 +45,21 @@ const h1 = (
    </a>
  );
 ```
+<p>&emsp;A JSX expression must have exactly one outermost element. The below code is invalid: </p>
 
+```javascript
+const expression = (
+   <p>Text<p>
+   <p>More text</p>
+ );
+```
+<p>&emsp;You can instead wrap the expression in div tags: </p>
 
+```javascript
+const expression = (
+   <div>
+      <p>Text<p>
+      <p>More text</p>
+   </div>
+ );
+```
