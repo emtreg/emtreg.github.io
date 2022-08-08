@@ -22,19 +22,19 @@ const h1 = <h1>Hello World</h1>;
 
 <p>&emsp;For example, the above JSX element could also have a style attribute: </p>
 
-```javascript
+```react
 const h1 = <h1 style="color:red;">Hello World</h1>;
 ```
 
 <p>&emsp;Or could be nested:</p>
 
-```javascript
+```react
 const h1 = <a href="https://www.example.com"><h1 style="color:red;">Hello World</h1></a>;
 ```
 
 <p>&emsp;If a JSX expression takes up more than one line it needs to be wrapped in parenthesis. The above could also be written as: </p>
 
-```javascript
+```react
 const h1 = (
    <a href="https://www.example.com">
      <h1>
@@ -45,7 +45,7 @@ const h1 = (
 ```
 <p>&emsp;A JSX expression must have exactly one outermost element. The below code is invalid: </p>
 
-```javascript
+```react
 const expression = (
    <p>Text<p>
    <p>More text</p>
@@ -53,7 +53,7 @@ const expression = (
 ```
 <p>&emsp;You can instead wrap the expression in div tags: </p>
 
-```javascript
+```react
 const expression = (
    <div>
       <p>Text<p>
