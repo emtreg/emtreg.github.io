@@ -14,7 +14,7 @@ date: 2022-08-02
 
 <p>&emsp;Example of a JSX element in JavaScript:</p>
 
-```javascript
+```react
 const h1 = <h1>Hello World</h1>;
 ```
 
