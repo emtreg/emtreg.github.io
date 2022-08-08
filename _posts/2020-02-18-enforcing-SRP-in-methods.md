@@ -17,6 +17,13 @@ date: 2020-02-18
 <p>&emsp;The second point in this list is especially important, since methods that require internal commentation often have more than one responsibility. If you have to explicitly describe certain behavior, it's best to create a separate method for that code.</p>
 <p>&emsp; In order to determine if the methods in my Minesweeper application adhere to the SRP, I will be taking a closer look at the comments I've written for each method. Let's start with the Player class: </p>
 
+```ruby
+#sets first_move to true
+def initialize
+@first_move = true
+end
+```
+
 {% highlight ruby %}
 
     class Player
