@@ -4,7 +4,7 @@ title: "Introduction to React"
 date: 2022-08-02
 ---
 
-<h1>JSX</h1>
+<p><strong>JSX</strong></p>
 
 <p>&emsp;react.js is a JavaScript library used for building user interfaces. React is fast, modular, scalable and flexible.</p>
 
