@@ -15,3 +15,7 @@ date: 2022-08-02
 <p>&emsp;JSX Elements</p>
 <p>&emsp;JSX elements are treated like JS expressions. They can be saved in a variable, passed to a function, or stored in an object or array.</p>
 <p>&emsp;They can have attributes and you can nest JSX elements</p>
+
+```javascript
+const h1 = <h1>Hello World</h1>;
+```
